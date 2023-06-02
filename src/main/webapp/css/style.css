@@ -1,0 +1,22 @@
+body{
+	font-family: 'Century gothic', 'arial', 'sans serif';
+	color: white;
+	background: linear-gradient(to right, teal, black) repeat-y;
+}
+
+.element-haut{
+	display: flex;
+	justify-content: space-around;
+}
+.element-haut ul{
+	list-style-type: none;
+	text-decoration: none;
+	margin-top: 3vh;
+	display: flex;
+	column-gap: 5vw;
+}
+
+.element-haut ul li a{
+	color: white;
+	text-decoration: none;
+}
